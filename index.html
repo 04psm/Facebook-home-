@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Facebook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="image/fb.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+</head>
+<body style="background: rgb(31, 30, 30);">
+    
+    <nav class="nav-bar-not-responsive">
+
+        <div class="row navbar navbar-expand-lg">
+
+            <div class="col-md-3">
+
+                <div class="row">
+
+                    <div class="col-md-1 col-sm-12">
+
+                        <img src="fblogo.png" class="fblogo">
+
+                    </div>
+                    <div class="col-md-1 "></div>
+
+                    <div class="col-md-9 nav-bar-search mt-1" >
+
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search Facebook">
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="col-md-9">
+
+                <div class="row">
+
+                    <div class="col-md-8 middle-item">
+
+                        <div class="row">
+
+                            <div class="col-md-1">
+                                
+                            </div>
+
+                            <div class="col-md-2" style="margin-top: 2px;">
+                                <a class="nav-link" href="#"><i class="fas fa-home active font_1-5rem"></i></a>
+                                
+                            </div>
+
+                            <div class="col-md-2" style="margin-top: 2px;">
+                                <a class="nav-link font-color-gray" href="#"><i class="fas fa-tv inactive font_1-5rem"></i></a>
+                            </div>
+
+                            <div class="col-md-2" style="margin-top: 2px;">
+                                <a class="nav-link font-color-gray" href="#"><i class="fas fa-store inactive font_1-5rem"></i></a>
+                            </div>
+
+                            <div class="col-md-2" style="margin-top: 2px;">
+                                <a class="nav-link font-color-gray" href="#"><i class="fas fa-users inactive font_1-5rem"></i></a>
+                            </div>
+
+                            <div class="col-md-2" style="margin-top: 2px;">
+                                <a class="nav-link font-color-gray" href="#"><i class="fas fa-flag inactive font_1-5rem"></i></a>
+                            </div>
+
+                            <div class="col-md-1"></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4 nav-bar-options">
+
+                        <div class="row">
+
+                            <div class="col-md-2" style="margin-top: 2px;">
+                                <a class="nav-link font-color-gray" href="#"><i class="fas fa-sign-in-alt font_1-5rem"></i></a>
+                                
+                            </div>
+
+                            <div class="col-md-2" style="left: -25px;margin-top: 3px;">
+                                <a class="nav-link font-color-gray" href="#" style="padding-top: 6px;  "><h5 class="text-muted" style="margin-bottom: 0px;">Partha</h5></a>
+                                
+                            </div>
+
+                            <div class="col-md-2" style="left: 15px;margin-top: 2px;">
+                                <a class="nav-link font-color-gray" href="#"><i class="fas fa-plus-circle font_1-5rem"></i></a>
+                                
+                            </div>
+
+                            <div class="col-md-2" style="left: 15px;margin-top: 2px;">
+                                <a class="nav-link font-color-gray" href="#"><i class="fab fa-facebook-messenger font_1-5rem"></i></a>
+                                
+                            </div>
+
+                            <div class="col-md-2"style="left: 15px;margin-top: 2px;">
+                                <a class="nav-link font-color-gray" href="#"><i class="fas fa-bell font_1-5rem"></i></a>
+                                
+                            </div>
+
+                            <div class="col-md-2" style="left: 15px;margin-top: 2px;">
+
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item drop-item">
+
+                                          
+                                        <a class="nav-link font-color-gray"  id="navbarDropdown" href="#"><i class="fas fa-caret-down font_1-5rem"></i></a>
+
+                                        <div class="drop-down"  style="width: 450px; border-radius: 8px;">
+                                            <div class="row mt-2 ">
+
+                                                <div class="col-md-2 " style="left: 20px;top:5px;" >
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <img src="circle-cropped.png" alt="" class="rounded-circle" role="button">
+                                                    </div>
+                                                </div>
+                                
+                                                <div class="col-md-9 d-flex align-items-center" style="top: 5px;left: 20px;">
+                                                    <h6 class="text-white" role="button" role="button" style=" font-size: 18px; font-weight: bold;">Partha Sarathi Manna
+                                                    </h6>
+                                                </div>
+                                                
+                                            </div> 
+
+                                            <hr style = "background-color: rgb(92, 92, 92);">
+
+                                            <div class="row mt-2 ">
+
+                                                <div class="col-md-3">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <i class="fas fa-comment-alt font_1-5rem font-color-gray" role="button"></i>
+                                                    </div>
+                                                </div>
+                                
+                                                <div class="col-md-7 flex-column d-flex align-items-center" style="left: -100px;">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h6 class="text-white" role="button">Give Feedback</h6>
+                                                        </div>
+                                                        
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-md-12" style="left: 70px;">
+                                                            <h6><small class="text-muted text-mute" role="button">Help us improve the new Facebook</small></h6>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <hr style = "background-color: rgb(92, 92, 92);">
+
+                                            <div class="row mt-2">
+
+                                                <div class="col-md-3">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <i class="fas fa-cog font_1-5rem font-color-gray" role="button"></i>
+                                                    </div>
+                                                </div>
+                                
+                                                <div class="col-md-7 flex-column d-flex "  style="left: -22px;">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h6 class="text-white" role="button">Settings</h6>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-2 flex-column d-flex align-items-center">
+                                                    <div class="row">
+                                                        <i class="fas fa-chevron-right font_1-5rem font-color-gray" role="button"></i>
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+
+                                            <div class="row mt-2">
+
+                                                <div class="col-md-3">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <i class="fas fa-question-circle font_1-5rem font-color-gray" role="button"></i>
+                                                    </div>
+                                                </div>
+                                
+                                                <div class="col-md-7 flex-column d-flex "  style="left: -22px;">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h6 class="text-white" role="button">Help</h6>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-2 flex-column d-flex align-items-center">
+                                                    <div class="row">
+                                                        <i class="fas fa-chevron-right font_1-5rem font-color-gray" role="button"></i>
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                            
+
+                                            <div class="row mt-2">
+
+                                                <div class="col-md-3">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <i class="fas fa-adjust font_1-5rem font-color-gray" role="button"></i>
+                                                    </div>
+                                                </div>
+                                
+                                                <div class="col-md-7 flex-column d-flex " style="left: -22px;">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <h6 class="text-white" role="button">Dark mode</h6>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-2 flex-column d-flex align-items-center">
+                                                    <div class="row" style="width: 40px;">
+                                                        <i class="fas fa-toggle-on font_1-5rem font-color-gray" style="color: rgb(76, 76, 226); font-size: 30px; " role="button"></i>
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <hr style = "background-color: rgb(92, 92, 92);">
+
+                                            <div class="row mt-2 classic-facebook">
+
+                                                
+
+                                                <div class="col-md-3">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <i class="fas fa-arrow-circle-left font_1-5rem font-color-gray" role="button"></i>
+                                                    </div>
+                                                </div>
+                                
+                                                <div class="col-md-9 flex-column d-flex" style="left: -22px;">
+                                                    <div class="row">
+                                                        <h6 class="text-white" role="button">Switch to classic Facebook</h6>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <h6 class="text-muted " role="button"><small class="text-mute">The classic Facebook will no longer be avalaible starting in September</small></h6>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <hr style = "background-color: rgb(92, 92, 92);">
+
+
+                                            <div class="row mt-2">
+
+                                                <div class="col-md-3">
+                                                    <div class="d-flex justify-content-center align-items-center">
+                                                        <i class="fas fa-sign-out-alt font_1-5rem font-color-gray" role="button"></i>
+                                                    </div>
+                                                </div>
+                                
+                                                <div class="col-md-7 flex-column d-flex"  style="left: -22px;">
+                                                    <div class="row">
+                                                        <h6 class="text-white" role="button">Log Out</h6>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+
+
+                                            <div class="row mt-2 mb-3 classic-facebook">
+
+                                                <div class="col-md-1"></div>
+
+                                                <div class="col-md-10">
+                                                    <div class="">
+                                                        <small class="text-muted text-mute" role="button">Privacy</small>
+                                                        <small class="text-muted text-mute" >•</small>
+                                                        <small class="text-muted text-mute" role="button">Terms</small>
+                                                        <small class="text-muted text-mute" >•</small>
+                                                        <small class="text-muted text-mute" role="button">Advertising</small>
+                                                        <small class="text-muted text-mute" >•</small>
+                                                        <small class="text-muted text-mute" role="button">Add Choices</small>
+                                                        <small class="text-muted text-mute" >•</small>
+                                                        <small class="text-muted text-mute" role="button">Cookies</small>
+                                                        <small class="text-muted text-mute" >•</small>
+                                                        <small class="text-muted text-mute" role="button">More</small>
+                                                        <small class="text-muted text-mute" >•</small>
+                                                        <small class="text-muted text-mute" role="button">Facebook</small>
+                                                        <small class="text-muted text-mute" >•</small>
+                                                        <small class="text-muted text-mute" role="button">&#169; 2020</small>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-1">
+
+                                                </div>
+                                                
+                                            </div>
+
+                            
+                                        </div>
+                                        
+                                    </li>
+                                </ul>
+                                
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            
+
+            
+
+
+
+        </div>
+
+        
+
+
+
+      
+        
+      </nav>
+
+
+      <!-- for responsive navbar ----->    
+
+    <nav class="nav-bar-responsive">
+
+      
+
+        <div class=" navbar navbar-expand-lg d-flex flex-nowrap justify-content-around align-items-center">
+            <img src="fblogo.png" class="fblogo">
+
+            <a class="nav-link" href="#"><i class="fas fa-home active font_1-5rem"></i></a>
+
+            <a class="nav-link font-color-gray" href="#"><i class="fas fa-tv inactive font_1-5rem"></i></a>
+
+            <a class="nav-link font-color-gray" href="#"><i class="fas fa-store inactive font_1-5rem"></i></a>
+
+            <a class="nav-link font-color-gray" href="#"><i class="fas fa-users inactive font_1-5rem"></i></a>
+
+            <a class="nav-link font-color-gray" href="#"><i class="fas fa-flag inactive font_1-5rem"></i></a>
+
+            <a class="nav-link font-color-gray" href="#"><i class="fas fa-bars inactive font_1-5rem"></i></a>
+        </div>
+
+    </nav>
+
+
+
+
+
+
+
+
+
+    <!-- for responsive above 1270px -------------------------  -->
+
+    <div class="responsive-1270px">
+
+    
+
+      <div class="container-fluid">
+
+        <div class="row main-content">
+
+
+            <!-- for left side ------> 
+            <div class="col-md-2 col-sm-8 left-side mt-3" style="left: 20px;">
+
+                <div class="row mt-2">
+
+                    <div class="col-md-2 col-sm-2">
+                        <div class="d-flex justify-content-center align-items-center image-left">
+                            <img src="circle-cropped.png" alt="" class="rounded-circle" role="button">
+                        </div>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center">
+                        <h6 class="text-white font" role="button" role="button" >Partha Sarathi Manna</h6>
+                    </div>
+                    
+                </div>
+
+
+                <div class="row mt-3 hover-menu">
+
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-flag font_1-5rem" role="button"  style="color:#FF0000;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center" style=" padding-top: 5px;">
+                        <h6 class="text-white font" role="button" >Pages</h6>
+                    </div>
+
+                </div>
+
+
+                <div class="row mt-3 hover-menu">
+
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-shield-virus font_1-5rem" role="button" style="color: purple;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center" style=" padding-top: 5px;">
+                        <h6 class="text-white font" role="button">Covid-19 Information Center</h6>
+                    </div>
+
+                </div>
+
+
+                <div class="row mt-3 hover-menu" >
+
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-user-friends font_1-5rem" role="button" style="color: #4944df;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center" style=" padding-top: 5px;">
+                        <h6 class="text-white font" role="button">Friends</h6>
+                    </div>
+
+                </div>
+
+
+
+                <div class="row mt-3 hover-menu">
+
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-users font_1-5rem" role="button" style="color:#3c07c0 ;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center" style=" padding-top: 5px;">
+                        <h6 class="text-white font" role="button">Groups</h6>
+                    </div>
+
+                </div>
+                <div class="row mt-3 hover-menu">
+
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fab fa-facebook-messenger font_1-5rem" role="button" style="color:#0000FF ;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center" style=" padding-top: 5px;">
+                        <h6 class="text-white font" role="button">Messenger</h6>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="row mt-3">
+
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-caret-square-down font_1-5rem" role="button" style="color:#b3b3b8;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center">
+                        <h6 class="text-white font" role="button">See More</h6>
+                    </div>
+
+                </div>
+                
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h5 class="text-white" style="font-size: 22px;">Your Shortcuts</h5>
+                    </div>
+                </div>
+
+                <div class="row mt-2 hover-menu">
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <img src="logo1.png" class="rounded-circle " style="height: 38px;width: 40px;">
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center">
+                        <h6 class="text-white" role="button">Dev 03</h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 hover-menu">
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <img src="unnamed.jpg" class="rounded-circle"  style="height: 34px;width: 35px;">
+                    </div>
+    
+                    <div class="col-md-10 d-flex align-items-center">
+                        <h6 class="text-white" role="button">Photography</h6>
+                    </div>
+                </div>
+
+
+                
+
+
+
+            </div>
+            <div class="col-md-1">
+                
+            </div>
+
+
+
+
+            <!-- for middle part --------------------->  
+            <div class="col-md-6 middle-part">
+
+                <div class="row mt-4">
+                    <div class="col-md-2 main-content-story" style=" padding: 3px;">
+                        <img src="1.jpg" alt="">
+                        <h6 class="text-white">My Story</h6>
+                        
+                    </div>
+
+                    <div class="col-md-2 main-content-story"  style=" padding: 5px;">
+                        <img src="2.jpg" alt="">
+
+                        <h6 class="text-white">Oliver Smith</h6>
+                    </div>
+
+                    <div class="col-md-2 main-content-story"  style=" padding: 5px;">
+                        <img src="3.jpg" alt="">
+
+                        <h6 class="text-white">Harry Adams</h6>
+                    </div>
+
+                    <div class="col-md-2 main-content-story"  style=" padding: 5px;">
+                        <img src="4.jpg" alt="">
+
+                        <h6 class="text-white">George Allen</h6>
+                    </div>
+                    <div class="col-md-2 main-content-story"  style=" padding: 5px;">
+                        <img src="5.jpg" alt="">
+
+                        <h6 class="text-white">Noah Bailey</h6>
+                    </div>
+                    <div class="col-md-2 main-content-story"  style=" padding: 5px;">
+                        <img src="6.jpg" alt="">
+
+                        <h6 class="text-white">Jack Baker</h6>
+                    </div>
+
+                   
+                </div>
+
+
+                
+
+                <div class="row mt-3 box1">
+
+                    <div class="container1">
+
+                        <div class="row">
+                            <div class="col-md-1 image-middle">
+                                <img src="circle-cropped.png"alt="" class="rounded-circle">
+                            </div>
+
+                            <div class="col-md-11">
+                                <form action="" class="form-inline">
+                                    <input class="form-control" type="search" placeholder="What's on your mind, Partha ?">
+                                </form>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-md-1 ml-2">
+                                <i class="fas fa-video font_1-5rem" role="button" style="color:#FF0000;font-size: 24px;"></i>
+                            </div>
+
+                            <div class="col-md-2" style="padding-left: 5px;">
+                                <h6 class="text-white" role="button">Live video</h5>
+                            </div>
+                            <div class="col-md-1"></div>
+
+                            <div class="col-md-1">
+                                <i class="fas fa-image font_1-5rem" role="button" style="color: #32CD32;font-size: 24px;"></i>
+                            </div>
+
+                            <div class="col-md-2" style="padding-left: 5px;">
+                                <h6 class="text-white" role="button">Photo/Video</h6>
+                            </div>
+
+                            <div class="col-md-1"></div>
+                            <div class="col-md-1">
+                                <i class="far fa-smile-beam font_1-5rem" role="button" style="color:#FFA500;font-size: 24px;"></i>
+                            </div>
+
+                            <div class="col-md-2" style="padding-left: 5px;">
+                                <h6 class="text-white" role="button">Feelings/Activity</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4 box2">
+
+                    <div class="row mt-2">
+                        <div class="col-md-1 post ml-3">
+                            <img src="unnamed.jpg" class="rounded-circle" alt="" >
+                        </div>
+
+                        
+
+                        <div class="col-md-6 " style="left: 20px;">
+                            <div class="row">
+                                <h6 class="text-white font mt-1">Photography</h6>
+                            </div>
+                            <div class="row">
+                                <h6 class="text-muted text-mute">58 min • <i class="fas fa-globe"></i></h6>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 ml-5" style="width: 90%;">
+                            <img src="course-1.jpg" class = "image" alt="" style="max-width: 95%; border-radius: 10px;">
+                        </div>
+                        <div class="row  mt-4" style="width: 100%;margin-left: 50px;">
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;" >
+                            <i class="fas fa-thumbs-up font_1-5rem" style="color:#1E90FF;padding-right: 10px;" role="button"></i>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 10px;padding-right: 0px;" role="button">
+                            <h6 class="text-white">Like</h6>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-comment font_1-5rem" style="color:#C0C0C0;" role="button"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option"style="padding-left: 8px;padding-right: 0px;"role="button">
+                            <h6 class="text-white" >Comment</h6>
+                        </div>
+
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-share font_1-5rem" style="color:#FFFFFF;"role="button"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 9px;"role="button">
+                            <h6 class="text-white">Share</h6>
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="row mt-4">
+                        <div class="col-md-1 post ml-3">
+                            <img src="unnamed.jpg" class="rounded-circle" alt="" >
+                        </div>
+
+                        
+
+                        <div class="col-md-6 " style="left: 20px;">
+                            <div class="row">
+                                <h6 class="text-white font mt-2">Photography</h6>
+                            </div>
+                            <div class="row">
+                                <h6 class="text-muted text-mute">2 d • <i class="fas fa-globe"></i></h6>
+                            </div>
+                        </div>
+
+
+                        <div class="row mt-3 ml-5" style="width: 90%;" >
+                            <img src="course-2.jpg" class = "image" alt="" style="width: 95%; border-radius: 10px;">
+                        </div>
+                        <div class="row  mt-4" style="width: 100%;margin-left: 50px;">
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;" >
+                            <i class="fas fa-thumbs-up font_1-5rem" style="color:#1E90FF;padding-right: 10px;" role="button"></i>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 10px;padding-right: 0px;" role="button">
+                            <h6 class="text-white">Like</h6>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-comment font_1-5rem" style="color:#C0C0C0;" role="button"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option"style="padding-left: 8px;padding-right: 0px;"role="button">
+                            <h6 class="text-white" >Comment</h6>
+                        </div>
+
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-share font_1-5rem" style="color:#FFFFFF;"role="button"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 9px;"role="button">
+                            <h6 class="text-white">Share</h6>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-1"></div>
+
+
+
+            <!-- for right part -------------------->
+            <div class="col-md-2 right-part mt-4" style="right: 75px; padding: 0px;">
+
+            
+
+            
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 class="text-white" style="font-size: 22px;">Your Pages</h5>
+                    </div>
+                </div>
+
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+                <div class="row mt-2 ml-1">
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <img src="logo1.png" class="rounded-circle " style="height: 46px;width: 48px;">
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center">
+                        <h6 class="text-white" role="button">Dev 03</h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 ml-1">
+                    <div class="col-md-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-comment-alt font_1-3rem" role="button" style="color:#b3b3b8;"></i>
+                    </div>
+    
+                    <div class="col-md-10 d-flex align-items-center mt-1">
+                        
+                        <h6 class="text-muted " role="button"><small class="text-mute">15 Messages</small></h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 ml-1">
+                    <div class="col-md-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-bell font_1-3rem" role="button" style="color:#b3b3b8;"></i>
+                    </div>
+    
+                    <div class="col-md-10 d-flex align-items-center mt-1">
+                        <h6 class="text-muted " role="button"><small class="text-mute">95 Notifications</small></h6>
+                        
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 ml-1">
+                    <div class="col-md-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-bullhorn font_1-3rem" role="button" style="color:#b3b3b8;"></i>
+                    </div>
+    
+                    <div class="col-md-10 d-flex align-items-center mt-1">
+                        <h6 class="text-muted " role="button"><small class="text-mute">Create Promotions</small></h6>
+                        
+                    </div>
+                </div>
+
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <h6 class="float-left text-white" style="font-size: 18px;">Friend Requests</h6>
+                    </div>
+
+                    
+
+                    <div class="col-md-4">
+                        <h6 class="text-primary" role="button">See All</h6>
+                    </div>
+                    
+                    
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-2 image-right mt-2 rounded-circle" style="margin-left: 5px;">
+                        <img src="img-2.jpg" role="button" alt="" class="rounded-circle">
+                    </div>
+
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-8 mt-3" style="left: -7px;">
+
+                        <div class="row">
+                            <h6 class="text-white" role="button">Sourasish Chakraborty</h6>
+                        </div>
+
+                        <div class="row">
+                            <h6><small class="text-muted text-mute">7 Mutual friends</small></h6>
+                        </div>
+
+                        <div class="row mt-2">
+
+                            <div class="col-md-6" style="left: -12px;">
+                                <button type="button" class=" btn btn-sm btn-primary font-weight-bold">Confirm</button>
+                            </div>
+
+                            <div class="col-md-6"  style="left: -20px;">
+                                <button type="button" class="btn btn-sm btn-dark font-weight-bold" style="height: 34px; width: 70px;">Delete</button>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+                
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h6 class="text-white font" role="button">Birthdays</h6>
+                    </div>
+
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-md-2"  style="margin-left: 5px;">
+                        <i class="fas fa-gift birthday-logo" role="button" style="color:#1E90FF;"></i>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-8" style="left: -15px;">
+                        <p class="text-white"><b role="button">Lee Smith</b> and <b role="button">19 others</b> have their birthdays today.</p>
+                    </div>
+                </div>
+
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <h6 class=" float-left text-white font" role="button">Contacts</h6>
+                    </div>
+
+                   
+
+                    <div class="col-md-4">
+                        <h6 class="text-primary " role="button">See All</h6>
+                    </div>
+                </div>
+                <div class="row mt-2 ml-1" >
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <img src="img-3.jpg" class="rounded-circle " style="height: 46px;width: 48px;">
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center">
+                        <h6 class="text-white" role="button">Mohini Mahato</h6>
+                    </div>
+                </div>
+                
+                
+
+
+            </div>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- responsive within 1269px --------  -->
+
+      <div class="responsive-1269px">
+
+        <div class="container-fluid">
+            <div class="row">
+
+        
+        
+
+        
+
+        <!-- for middle part --------------------->  
+            <div class="col-md-7 col-sm-7 middle-part" style="left: 20px;">
+
+            <div class="row mt-3">
+                <div class="col-md-3 col-sm-3 main-content-story" style="padding: 0px; padding-left: 5px;">
+                    <img src="1.jpg" alt="" style="height: 220px;">
+
+                    <h6 class="text-white" style="font-size: 16px;">My Story</h6>
+                </div>
+
+                <div class="col-md-3 col-sm-3 main-content-story" style="padding: 0px; padding-left: 5px;">
+                    <img src="2.jpg" alt=""  style="height: 220px;">
+
+                    <h6 class="text-white" style="font-size: 16px;">Oliver Smith</h6>
+                </div>
+
+                <div class="col-md-3 col-sm-3 main-content-story" style="padding:0px; padding-left: 5px;">
+                    <img src="3.jpg" alt=""  style="height: 220px;">
+
+                    <h6 class="text-white" style="font-size: 16px;">Harry Adams</h6>
+                </div>
+
+                <div class="col-md-3 col-sm-3 main-content-story" style="padding:0px; padding-left: 5px;">
+                    <img src="4.jpg" alt=""  style="height: 220px;">
+
+                    <h6 class="text-white" style="font-size: 16px;">George Allen</h6>
+                </div>
+
+               
+            </div>
+
+
+            
+
+            <div class="row mt-3 box1">
+
+                <div class="container1">
+
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1 image-middle">
+                            <img src="circle-cropped.png" class="rounded-circle" alt="">
+                        </div>
+
+                        <div class="col-md-11 col-sm-11 " style="left: 10px;">
+                            <form action="" class="form-inline">
+                                <input type="search" placeholder="What's on your mind, Partha?">
+                            </form>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1" >
+                            <i class="fas fa-video font_1-5rem" style="color:#FF0000;padding-right: 0px;"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 10px;">
+                            <h6 class="text-white">Live video</h6>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-image font_1-5rem" style="color:#32CD32;"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option"style="padding-left: 8px;">
+                            <h6 class="text-white" >Photo / Video</h6>
+                        </div>
+
+
+                        <div class="col-md-1 col-sm-1">
+                            <i class="far fa-smile-beam font_1-5rem" style="color:#FFA500;"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 8px;">
+                            <h6 class="text-white">Feelings/ Activity</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+        <div class="row mt-3 box2">
+
+            <div class="row mt-2">
+                <div class="col-1 post ml-4 " style="margin-right: 13px;">
+                    <img src="unnamed.jpg" alt="" class="rounded-circle" style="height: 40px;width: 40px;" >
+                </div>
+
+                
+
+                <div class="col-6 " style="left: 8px;">
+                    <div class="row">
+                        <h6 class="text-white">Photography</h6>
+                    </div>
+                    <div class="row">
+                        <h6 class="text-muted text-mute" style="font-size: 15px;">48 min • <i class="fas fa-globe"></i></h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-1" style="width: 100%" >
+                    <img src="course-1.jpg" class = "image" alt="" style="width: 100%;">
+                </div>
+                <div class="row  mt-4" style="width: 100%;margin-left: 50px;">
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;" >
+                            <i class="fas fa-thumbs-up font_1-5rem" style="color:#1E90FF;padding-right: 10px;" role="button"></i>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 10px;padding-right: 0px;" role="button">
+                            <h6 class="text-white">Like</h6>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-comment font_1-5rem" style="color:#C0C0C0;" role="button"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option"style="padding-left: 8px;padding-right: 0px;"role="button">
+                            <h6 class="text-white" >Comment</h6>
+                        </div>
+
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-share font_1-5rem" style="color:#FFFFFF;"role="button"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 9px;"role="button">
+                            <h6 class="text-white">Share</h6>
+                        </div>
+                    </div>
+
+            </div>
+
+
+
+            <div class="row mt-4" >
+                <div class="col-1 post ml-4" style="margin-right: 13px;">
+                    <img src="unnamed.jpg" alt="" class="rounded-circle"style="height: 40px;width: 40px;" >
+                </div>
+
+                
+
+                <div class="col-6 " style="left: 8px;">
+                    <div class="row">
+                        <h6 class="text-white">Photography</h6>
+                    </div>
+                    <div class="row">
+                        <h6 class="text-muted text-mute" style="font-size: 15px;">2 h • <i class="fas fa-globe"></i></h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-1" style="width: 100%">
+                    <img src="course-2.jpg" class = "image" alt="" style="width: 100%;">
+                </div>
+                <div class="row  mt-4" style="width: 100%;margin-left: 50px;">
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;" >
+                            <i class="fas fa-thumbs-up font_1-5rem" style="color:#1E90FF;padding-right: 10px;" role="button"></i>
+                        </div>
+
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 10px;padding-right: 0px;" role="button">
+                            <h6 class="text-white">Like</h6>
+                        </div>
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-comment font_1-5rem" style="color:#C0C0C0;" role="button"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option"style="padding-left: 8px;padding-right: 0px;"role="button">
+                            <h6 class="text-white" >Comment</h6>
+                        </div>
+
+
+                        <div class="col-md-1 col-sm-1" style="padding-right: 0px;">
+                            <i class="fas fa-share font_1-5rem" style="color:#FFFFFF;"role="button"></i>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3 post-option" style="padding-left: 9px;"role="button">
+                            <h6 class="text-white">Share</h6>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+
+        </div>
+
+    
+        <div class="col-md-1 col-sm-1"></div>
+
+
+    
+
+
+
+
+
+    
+    
+
+        <!-- for right part -------------------->
+        <div class="col-md-4 col-sm-4 right-part" style="right: 10px;">
+
+            
+                <div class="row">
+                    <div class="col-md-12 mt-3">
+                        <h5 class="text-white" style="font-size: 22px;">Your Pages</h5>
+                    </div>
+                </div>
+
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+                <div class="row mt-2 ml-1">
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <img src="logo1.png" class="rounded-circle " style="height: 46px;width: 48px;">
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center">
+                        <h6 class="text-white" role="button">Dev 03</h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 ml-1">
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-comment-alt font_1-3rem" role="button" style="color:#b3b3b8;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center mt-1">
+                        
+                        <h6 class="text-muted " role="button"><small class="text-mute">15 Messages</small></h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 ml-1">
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-bell font_1-3rem" role="button" style="color:#b3b3b8;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center mt-1">
+                        <h6 class="text-muted " role="button"><small class="text-mute">95 Notifications</small></h6>
+                        
+                    </div>
+                </div>
+
+
+                <div class="row mt-2 ml-1">
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-bullhorn font_1-3rem" role="button" style="color:#b3b3b8;"></i>
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center mt-1">
+                        <h6 class="text-muted " role="button"><small class="text-mute">Create Promotions</small></h6>
+                        
+                    </div>
+                </div>
+
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+                <div class="row">
+
+                    <div class="col-md-7 col-sm-8">
+                        <h6 class="float-left text-white" style="font-size: 18px;">Friend Requests</h6>
+                    </div>
+
+                    
+
+                    <div class="col-md-4 col-sm-4">
+                        <h6 class="text-primary" role="button">See All</h6>
+                    </div>
+                    
+                    
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 image-right mt-2 rounded-circle" style="margin-left: 5px;margin-top: 2px;">
+                        <img src="img-2.jpg" role="button" alt="" class="rounded-circle">
+                    </div>
+
+                    <div class="col-md-1 col-sm-1"></div>
+
+                    <div class="col-md-8 col-sm-8 mt-3" style="left: -7px;">
+
+                        <div class="row">
+                            <h6 class="text-white" role="button">Sourasish Chakraborty</h6>
+                        </div>
+
+                        <div class="row">
+                            <h6><small class="text-muted text-mute">7 Mutual friends</small></h6>
+                        </div>
+
+                        <div class="row mt-2">
+
+                            <div class="col-md-6 col-sm-6" style="left: -12px;">
+                                <button type="button" class=" btn btn-sm btn-primary font-weight-bold">Confirm</button>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6"  style="left: -20px;">
+                                <button type="button" class="btn btn-sm btn-dark font-weight-bold" style="height: 34px; width: 70px;">Delete</button>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+                
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h6 class="text-white font" role="button">Birthdays</h6>
+                    </div>
+
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-md-2 col-sm-2"  style="margin-left: 5px;">
+                        <i class="fas fa-gift birthday-logo" role="button" style="color:#1E90FF;"></i>
+                    </div>
+                    <div class="col-md-1 col-sm-1"></div>
+                    <div class="col-md-8 col-sm-8" style="left: -15px;">
+                        <p class="text-white"><b role="button">Lee Smith</b> and <b role="button">19 others</b> have their birthdays today.</p>
+                    </div>
+                </div>
+
+                <hr style = "background-color: rgb(92, 92, 92);">
+
+                <div class="row">
+                    <div class="col-md-7 col-sm-7">
+                        <h6 class=" float-left text-white font" role="button">Contacts</h6>
+                    </div>
+
+                   
+
+                    <div class="col-md-4 col-sm-4">
+                        <h6 class="text-primary " role="button">See All</h6>
+                    </div>
+                </div>
+                <div class="row mt-2 ml-1" >
+                    <div class="col-md-2 col-sm-2 d-flex justify-content-center align-items-center">
+                        <img src="img-3.jpg" class="rounded-circle " style="height: 46px;width: 48px;">
+                    </div>
+    
+                    <div class="col-md-10 col-sm-10 d-flex align-items-center">
+                        <h6 class="text-white" role="button">Mohini Mahato</h6>
+                    </div>
+                </div>
+
+        </div>
+    
+
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- responsive within 580px --------  -->
+    
+
+<div class="responsive-700px">
+
+    <div class="container-fluid">
+        <div class="row">
+
+        
+    <!-- for middle part --------------------->  
+    <div class="col-12  middle-part">
+
+        <div class="row mt-3">
+            <div class="col-3  main-content-story" style="padding:5px;">
+                <img src="1.jpg" alt="">
+
+                <h6 class="text-white" style="font-size: 15px;">My Story</h6>
+            </div>
+
+            <div class="col-3  main-content-story"  style="padding:5px;">
+                <img src="2.jpg" alt="">
+
+                <h6 class="text-white"  style="font-size: 15px;">Oliver Smith</h6>
+            </div>
+
+            <div class="col-3  main-content-story" style="padding:5px;">
+                <img src="3.jpg" alt="">
+
+                <h6 class="text-white"  style="font-size: 15px;">Harry Adams</h6>
+            </div>
+
+            <div class="col-3  main-content-story" style="padding:5px;">
+                <img src="4.jpg" alt="">
+
+                <h6 class="text-white" style="font-size: 15px;">George Allen</h6>
+            </div>
+
+           
+        </div>
+
+
+        
+
+        <div class="row mt-3 box1">
+
+            <div class="container1">
+
+                <div class="row">
+                    <div class="col-1  image-middle">
+                        <img src="circle-cropped.png" alt="" class="rounded-circle">
+                    </div>
+
+                    <div class="col-10" style="left: 15px;">
+                        <form action="" class="form-inline">
+                            <input type="search" placeholder="What's on your mind, Partha?">
+                        </form>
+                    </div>
+                </div>
+
+                 <hr style = "background-color: rgb(92, 92, 92);">
+
+                <div class="row">
+                    <div class="col-1 ">
+                        <i class="fas fa-video font_1-5rem" style="color:#FF0000;font-size: 20px;"></i>
+                    </div>
+
+                    <div class="col-3">
+                        <h6 class="text-white">Videos</h6>
+                    </div>
+
+                    <div class="col-1" style="padding-left:0px; ">
+                        <i class="fas fa-image font_1-5rem" style="color: #32CD32;font-size: 20px;"></i>
+                    </div>
+
+                    <div class="col-3 " style="padding-left: 0px;">
+                        <h6 class="text-white">Photos</h6>
+                    </div>
+
+
+                    <div class="col-1 " style="padding-left: 0px;">
+                        <i class="far fa-smile-beam font_1-5rem" style="color:#FFA500;font-size: 20px;"></i>
+                    </div>
+
+                    <div class="col-2 " style="padding-left: 0px;">
+                        <h6 class="text-white" >Feelings</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 box2">
+
+            <div class="row mt-2">
+                <div class="col-1 post ml-4" style="margin-right: 30px;">
+                    <img src="unnamed.jpg" alt="" class="rounded-circle" >
+                </div>
+
+                
+
+                <div class="col-6 " style="left: 5px;">
+                    <div class="row">
+                        <h6 class="text-white">Photography</h6>
+                    </div>
+                    <div class="row">
+                        <h6 class="text-muted text-mute" style="font-size: 15px;">58 min • <i class="fas fa-globe"></i></h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-1">
+                    <img src="course-1.jpg" class = "image" alt="">
+                </div>
+                
+                
+            </div>
+
+
+            <div class="row mt-4">
+                <div class="col-1 post ml-4" style="margin-right: 30px;">
+                    <img src="unnamed.jpg" alt="" class="rounded-circle" >
+                </div>
+
+                
+
+                <div class="col-6 " style="left: 5px;">
+                    <div class="row">
+                        <h6 class="text-white">Photography</h6>
+                    </div>
+                    <div class="row">
+                        <h6 class="text-muted text-mute" style="font-size: 15px;">2 h • <i class="fas fa-globe"></i></h6>
+                    </div>
+                </div>
+
+
+                <div class="row mt-1">
+                    <img src="course-2.jpg" class = "image" alt="">
+                </div>
+              
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+</div>
+</div>    
+</body>
+</html>
+
